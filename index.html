@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Angular ui-router</title>
+	</head>
+	<body ng-app="app">
+
+		<div ui-view="header"></div>
+		<div ui-view="content"></div>
+		<div ui-view="footer"></div>
+
+		<script type="text/javascript" src="lib/angular.js"></script>
+		<script type="text/javascript" src="lib/angular-ui-router.js"></script>
+
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/app.config.js"></script>
+        
+        <script type="text/javascript" src="templates/dashboard/DashboardController.js"></script>
+        <script type="text/javascript" src="templates/campaigns/CampaignsController.js"></script>
+        
+        <script type="text/javascript" src="templates/subscribers/SubscribersController.js"></script>
+        <script type="text/javascript" src="templates/subscribers/SubscribersService.js"></script>
+        <script type="text/javascript" src="templates/subscribers/detail/SubscriberDetailController.js"></script>
+	</body>
+</html>
